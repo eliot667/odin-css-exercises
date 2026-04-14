@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+.odd{
+    background-color: rgb(252, 98, 124);
+    font-family: 'Verdenna','DejaVu Sans',sans-serif;
+}
+
+#even2{
+    color: blue;
+    font-size: 36px;
+}
+
+.three{
+    font-size: 24px;
+}
+
+#even4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
