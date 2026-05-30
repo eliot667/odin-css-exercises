@@ -12,6 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -46,3 +48,21 @@ a {
 ul {
   list-style-type: none;
 }
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* NOTES FOR SOLUTION */
+/*
+  Use space-between in flex container, which spaces items out based on available space.
+  Then, the first item occupies left most space, and second item occupies right most space.
+  If, for example, we had 3 items in the flex container, then the middle item would be centered.
+*/
