@@ -3,9 +3,14 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .box {
+  display: flex;
+  justify-content: center;
   background: palevioletred;
   font-weight: bold;
   text-align: center;
